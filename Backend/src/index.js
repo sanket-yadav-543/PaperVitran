@@ -29,7 +29,7 @@ App.get("/api/file/:fileId", async (req, res) => {
     res.status(500).send("Error fetching file");
   }
 });
-App.listen(process.env.port,()=>{
+App.listen(5000,()=>{
   console.log("Server started")
 })
 
