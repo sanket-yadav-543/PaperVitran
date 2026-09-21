@@ -1,7 +1,7 @@
 const { google } = require("googleapis");
 const path = require("path");
 
-const KEYFILEPATH = path.join(__dirname, "../service-account.json"); // your downloaded key file
+const KEYFILEPATH = "/etc/secrets/service-account.json";
 const SCOPES = ["https://www.googleapis.com/auth/drive.readonly"];
 
 const auth = new google.auth.GoogleAuth({
