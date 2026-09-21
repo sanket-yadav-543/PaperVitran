@@ -6,7 +6,7 @@ const Paper=require("./routes/paper")
 
 App.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://paper-vitran.vercel.app/",
     credentials: true, // important for cookies or axios withCredentials
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
